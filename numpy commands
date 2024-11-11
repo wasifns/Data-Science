@@ -1,0 +1,39 @@
+empty(shape[, dtype, order, device, like])
+
+Return a new array of given shape and type, without initializing entries.
+
+empty_like(prototype[, dtype, order, subok, ...])
+
+Return a new array with the same shape and type as a given array.
+
+eye(N[, M, k, dtype, order, device, like])
+
+Return a 2-D array with ones on the diagonal and zeros elsewhere.
+
+identity(n[, dtype, like])
+
+Return the identity array.
+
+ones(shape[, dtype, order, device, like])
+
+Return a new array of given shape and type, filled with ones.
+
+ones_like(a[, dtype, order, subok, shape, ...])
+
+Return an array of ones with the same shape and type as a given array.
+
+zeros(shape[, dtype, order, like])
+
+Return a new array of given shape and type, filled with zeros.
+
+zeros_like(a[, dtype, order, subok, shape, ...])
+
+Return an array of zeros with the same shape and type as a given array.
+
+full(shape, fill_value[, dtype, order, ...])
+
+Return a new array of given shape and type, filled with fill_value.
+
+full_like(a, fill_value[, dtype, order, ...])
+
+Return a full array with the same shape and type as a given array.
